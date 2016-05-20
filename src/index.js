@@ -5,6 +5,7 @@ import ReactDOMServer from 'react-dom/server'
 import './apis/PanResponder/injectResponderEventPlugin'
 
 // apis
+import Alert from './apis/Alert'
 import Animated from './apis/Animated'
 import AppRegistry from './apis/AppRegistry'
 import AppState from './apis/AppState'
@@ -45,6 +46,7 @@ import PointPropType from './apis/StyleSheet/PointPropType'
 
 const ReactNative = {
   // apis
+  Alert,
   Animated,
   AppRegistry,
   AppState,
